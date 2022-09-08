@@ -289,16 +289,7 @@ function esVocal(letra) {
   let x = letra;
 
   if (
-    x == "a" ||
-    x == "e" ||
-    x == "i" ||
-    x == "o" ||
-    x == "u" ||
-    x == "A" ||
-    x == "E" ||
-    x == "I" ||
-    x == "O" ||
-    x == "U"
+    x == "a","e","i","o","u","A","E","I","O","U"
   ) {
     console.log("Es vocal");
   } else if (x.length > 1) {
@@ -310,4 +301,4 @@ function esVocal(letra) {
 
 //El "else if" es innecesario debido a que la sentencia del else es similar, sin embargo se dejará por temas de consigna.
 
-esVocal("A");
+esVocal("e");
